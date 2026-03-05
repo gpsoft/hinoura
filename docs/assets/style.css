@@ -1,96 +1,101 @@
-/* 全体 */
+:root {
+	--color-body-bg: hsl(210, 100%, 98%);
+	--color-header-bg: hsl(210, 100%, 90%);
+	--color-border: hsl(210, 80%, 70%);
+}
+
 body {
-  font-family: "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro",
-               "Yu Gothic", "YuGothic", "メイリオ", Meiryo,
-               "Noto Sans JP", "源ノ角ゴシック", sans-serif;
-  line-height: 1.6;
-  max-width: 720px;
-  margin: 0 auto;
-  padding: 0 15px;
-  background-color: #fafafa;
-  color: #333;
+	font-family: "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro",
+	"Yu Gothic", "YuGothic", "メイリオ", Meiryo,
+	"Noto Sans JP", "源ノ角ゴシック", sans-serif;
+	line-height: 1.6;
+	max-width: 720px;
+	margin: 0 auto;
+	padding: 0 15px;
+	background-color: var(--color-body-bg);
+	color: #333;
 }
 
 /* ヘッダー */
 header {
-  background-color: #f5f5f5;
-  border-bottom: 2px solid #ddd;
-  padding: 15px 20px;
+	background-color: var(--color-header-bg);
+	border-bottom: 2px solid var(--color-border);
+	padding: 15px 20px;
 }
 
 header .header-inner {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  max-width: 720px;
-  margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	max-width: 720px;
+	margin: 0 auto;
 }
 
 header .site-title h1 {
-  margin: 0;
-  font-size: 1.8rem;
+	margin: 0;
+	font-size: 1.8rem;
 }
 
 header .site-title a {
-  text-decoration: none;
-  color: #111;
+	text-decoration: none;
+	color: #555;
 }
 
 header .site-subtitle {
-  margin: 0;
-  font-size: 0.9rem;
-  color: #666;
+	margin: 0;
+	font-size: 0.9rem;
+	color: #666;
 }
 
 /* GitHubリンク */
 .github-link {
-  font-size: 0.85rem;
-  text-decoration: none;
-  color: #555;
-  border: 1px solid #ccc;
-  padding: 4px 8px;
-  border-radius: 4px;
-  transition: background 0.2s, color 0.2s;
+	font-size: 0.85rem;
+	text-decoration: none;
+	color: #555;
+	border: 1px solid #ccc;
+	padding: 4px 8px;
+	border-radius: 4px;
+	transition: background 0.2s, color 0.2s;
 }
 
 .github-link:hover {
-  background-color: #333;
-  color: #fff;
+	background-color: #333;
+	color: #fff;
 }
 
 /* レスポンシブ */
 @media screen and (max-width: 500px) {
-  header .header-inner {
-    flex-direction: column;
-    align-items: flex-start;
-  }
+	header .header-inner {
+		flex-direction: column;
+		align-items: flex-start;
+	}
 
-  .github-link {
-    margin-top: 8px;
-  }
+	.github-link {
+		margin-top: 8px;
+	}
 }
 
 /* メインコンテンツ */
 main {
-  padding: 40px 0;
+	padding: 40px 0;
 }
 
 /* 画像対応 */
 img {
-  max-width: 100%;
-  height: auto;
+	max-width: 100%;
+	height: auto;
 }
 
 /* フッター */
 footer {
-  text-align: center;
-  padding: 20px 0;
-  color: #888;
-  font-size: 0.85rem;
-  border-top: 1px solid #ddd;
+	text-align: center;
+	padding: 20px 0;
+	color: #888;
+	font-size: 0.85rem;
+	border-top: 1px solid #ddd;
 }
 
 /* 見出し調整 */
 h2, h3, h4 {
-  margin-top: 1.5em;
+	margin-top: 1.5em;
 }
