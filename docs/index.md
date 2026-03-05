@@ -1,3 +1,8 @@
+---
+layout: default
+title: 日浦山の紹介
+---
+
 # 日浦山の紹介
 
 <figure>

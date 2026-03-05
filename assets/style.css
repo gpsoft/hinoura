@@ -1,0 +1,15 @@
+body {
+	max-width: 720px;
+	margin: auto;
+	font-family: sans-serif;
+	line-height: 1.7;
+}
+
+figure {
+	text-align: center;
+}
+
+figcaption {
+	font-size: 0.9em;
+	color: #666;
+}
