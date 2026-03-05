@@ -4,13 +4,18 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ page.title }} | {{ site.title }}</title>
-  <link rel="stylesheet" href="/hinoura/assets/style.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/style.css">
 </head>
 <body>
 
 <header>
-  <h1><a href="/">{{ site.title }}</a></h1>
-  <a class="github-link" href="{{ site.repo }}" target="_blank" rel="noopener">GitHub</a>
+  <div class="header-inner">
+    <div class="site-title">
+      <h1><a href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
+      <p class="site-subtitle">Hinoura Blog</p>
+    </div>
+    <a class="github-link" href="{{ site.repo }}" target="_blank" rel="noopener">GitHub</a>
+  </div>
 </header>
 
 <main>
@@ -18,7 +23,7 @@
 </main>
 
 <footer>
-  <p>&copy; 2026 gpsoft</p>
+  <p>&copy; 2026 Hinoura Blog. Built with GitHub Pages.</p>
 </footer>
 
 </body>
