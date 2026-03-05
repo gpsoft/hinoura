@@ -2,25 +2,24 @@
 	--color-body-bg: hsl(210, 100%, 98%);
 	--color-header-bg: hsl(210, 100%, 90%);
 	--color-border: hsl(210, 80%, 70%);
+	font-size: 16px;
 }
 
 body {
-	font-family: "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro",
-	"Yu Gothic", "YuGothic", "メイリオ", Meiryo,
-	"Noto Sans JP", "源ノ角ゴシック", sans-serif;
+	font-family: "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro", "Yu Gothic", "YuGothic", "メイリオ", Meiryo, "Noto Sans JP", "源ノ角ゴシック", sans-serif;
 	line-height: 1.6;
 	max-width: 720px;
 	margin: 0 auto;
-	padding: 0 15px;
+	padding: 0 16px;
 	background-color: var(--color-body-bg);
 	color: #333;
+	font-size: 1.1rem;
 }
 
-/* ヘッダー */
 header {
 	background-color: var(--color-header-bg);
 	border-bottom: 2px solid var(--color-border);
-	padding: 15px 20px;
+	padding: 16px 20px;
 }
 
 header .header-inner {
@@ -38,20 +37,19 @@ header .site-title h1 {
 
 header .site-title a {
 	text-decoration: none;
-	color: #555;
+	color: #444;
 }
 
 header .site-subtitle {
 	margin: 0;
-	font-size: 0.9rem;
+	font-size: 0.85rem;
 	color: #666;
 }
 
-/* GitHubリンク */
 .github-link {
 	font-size: 0.85rem;
 	text-decoration: none;
-	color: #555;
+	color: #666;
 	border: 1px solid #ccc;
 	padding: 4px 8px;
 	border-radius: 4px;
@@ -63,7 +61,6 @@ header .site-subtitle {
 	color: #fff;
 }
 
-/* レスポンシブ */
 @media screen and (max-width: 500px) {
 	header .header-inner {
 		flex-direction: column;
@@ -75,27 +72,27 @@ header .site-subtitle {
 	}
 }
 
-/* メインコンテンツ */
 main {
-	padding: 40px 0;
+	padding: 20px 0 40px 0;
 }
 
-/* 画像対応 */
 img {
 	max-width: 100%;
 	height: auto;
 }
 
-/* フッター */
-footer {
+figcaption {
 	text-align: center;
-	padding: 20px 0;
+}
+
+footer {
+	text-align: right;
+	padding: 12px 0;
 	color: #888;
 	font-size: 0.85rem;
 	border-top: 1px solid #ddd;
 }
 
-/* 見出し調整 */
 h2, h3, h4 {
 	margin-top: 1.5em;
 }
