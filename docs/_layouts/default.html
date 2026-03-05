@@ -1,13 +1,25 @@
 <!DOCTYPE html>
-<html>
+<html lang="ja">
 <head>
   <meta charset="utf-8">
-  <title>{{ page.title }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }} | {{ site.title }}</title>
   <link rel="stylesheet" href="/hinoura/assets/style.css">
 </head>
 <body>
 
-{{ content }}
+<header>
+  <h1><a href="/">{{ site.title }}</a></h1>
+  <a class="github-link" href="{{ site.repo }}" target="_blank" rel="noopener">GitHub</a>
+</header>
+
+<main>
+  {{ content }}
+</main>
+
+<footer>
+  <p>&copy; 2026 gpsoft</p>
+</footer>
 
 </body>
 </html>

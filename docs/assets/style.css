@@ -1,15 +1,67 @@
+/* 全体 */
 body {
-	max-width: 720px;
-	margin: auto;
-	font-family: sans-serif;
-	line-height: 1.7;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 0 15px;
+  background-color: #fafafa;
+  color: #333;
 }
 
-figure {
-	text-align: center;
+/* ヘッダー */
+header {
+  position: relative;
+  padding: 20px 0;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
 }
 
-figcaption {
-	font-size: 0.9em;
-	color: #666;
+header h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+header h1 a {
+  text-decoration: none;
+  color: #111;
+}
+
+/* GitHubリンクを右上に */
+.github-link {
+  position: absolute;
+  top: 20px;
+  right: 15px;
+  font-size: 0.9rem;
+  text-decoration: none;
+  color: #555;
+}
+
+.github-link:hover {
+  color: #000;
+}
+
+/* メインコンテンツ */
+main {
+  padding: 40px 0;
+}
+
+/* 画像対応 */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* フッター */
+footer {
+  text-align: center;
+  padding: 20px 0;
+  color: #888;
+  font-size: 0.85rem;
+  border-top: 1px solid #ddd;
+}
+
+/* 見出し調整 */
+h2, h3, h4 {
+  margin-top: 1.5em;
 }
