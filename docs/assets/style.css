@@ -76,7 +76,11 @@ main {
 	padding: 20px 0 40px 0;
 }
 
-img {
+figure {
+	margin-bottom: 2rem;
+}
+
+figure img {
 	max-width: 100%;
 	height: auto;
 }
