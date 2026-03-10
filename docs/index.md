@@ -68,7 +68,7 @@ title: 日浦山とは
 - 奥之谷川の砂防ダムから上り、すぐBルートに合流するルート
 
 <figure>
-  <img src="img/02_02.jpg">
+  <img src="img/02_03.png">
   <figcaption>登山道</figcaption>
 </figure>
 
