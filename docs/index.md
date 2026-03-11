@@ -8,7 +8,7 @@ title: 日浦山とは
 日浦山は、広島県安芸郡海田町にある、標高345mの山だ。山頂からは、海田や広島市の町並みや広島湾が一望できる。登山道も整備されているので、初心者にも登りやすい。
 
 <figure>
-  <img src="img/01_01.jpg">
+  <img src="img/01_01.jpg" alt="写真">
   <figcaption>2021-06-21 瀬野川越しに見る、日浦山</figcaption>
 </figure>
 
@@ -32,17 +32,17 @@ title: 日浦山とは
 眺望も良い。海田町や安芸区の町はもちろん、瀬野方面に伸びる山並み、安芸アルプスや絵下山、広島湾に浮かぶ島々(江田島、似島、宮島など)、黄金山や広島市中心部などを楽しむことができる。
 
 <figure>
-  <img src="img/03_01.jpg">
+  <img src="img/03_01.jpg" alt="写真">
   <figcaption>山頂から望む海田湾、広島湾</figcaption>
 </figure>
 
 <figure>
-  <img src="img/03_02.jpg">
+  <img src="img/03_02.jpg" alt="写真">
   <figcaption>絵下山と矢野の町並み</figcaption>
 </figure>
 
 <figure>
-  <img src="img/03_03.jpg">
+  <img src="img/03_03.jpg" alt="写真">
   <figcaption>安芸アルプス</figcaption>
 </figure>
 
@@ -51,10 +51,15 @@ title: 日浦山とは
 日浦山に登る、最も一般的なルートは、
 
 - ひまわり観音から登るAルート
-- 大師時から登るBルート
+- 大師寺から登るBルート
 - 観音免公園から登るDルート
 
 の3つだろう。中でも、Aルートで登ってBルートで下山するのが定番である。どちらのルートも良く整備されており、駅にも近い。
+
+<figure>
+  <img src="img/02_02.png">
+  <figcaption>メジャールート</figcaption>
+</figure>
 
 その他にも、まぁまぁ歩きやすいルートやバリエーションルートがいくつかある。
 
@@ -69,7 +74,7 @@ title: 日浦山とは
 
 <figure>
   <img src="img/02_03.png">
-  <figcaption>登山道</figcaption>
+  <figcaption>マイナールート</figcaption>
 </figure>
 
 ## アクセス
