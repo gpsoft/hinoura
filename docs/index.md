@@ -8,7 +8,7 @@ title: 日浦山とは
 日浦山は、広島県安芸郡海田町にある、標高345mの山だ。山頂からは、海田や広島市の町並みや広島湾が一望できる。登山道はバラエティにとみ、360度いろんな方向から登ることができる。広島県内では、広島南アルプスや牛田山に次いで登山者が多い(気がする)。
 
 <figure>
-  <img src="img/01_01_lo.webp" alt="写真"><!-- img/01_01.jpg -->
+  <img src="img/01_01_lo.webp" alt="写真" data-full="img/01_01.jpg" class="lightbox-trigger">
   <figcaption>2021-06-21 瀬野川越しに見る、日浦山</figcaption>
 </figure>
 
