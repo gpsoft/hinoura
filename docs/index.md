@@ -19,7 +19,7 @@ title: 日浦山とは
 - 呉駅から30分
 
 <figure>
-  <img src="img/02_01_lo.webp"><!-- img/02_01.png -->
+  <img src="img/02_01_lo.webp" alt="地図" data-full="img/02_01.png" class="lightbox-trigger">
   <figcaption>JR海田市駅が近い</figcaption>
 </figure>
 
@@ -30,17 +30,17 @@ title: 日浦山とは
 眺望も良い。海田町や安芸区の町はもちろん、瀬野方面に連なる山並み、安芸アルプスや絵下山、広島湾に浮かぶ島々(江田島、似島、宮島など)、黄金山や広島市のビル群などを楽しむことができる。
 
 <figure>
-  <img src="img/03_01_lo.webp" alt="写真"><!-- img/03_01.jpg -->
+  <img src="img/03_01_lo.webp" alt="写真" data-full="img/03_01.jpg" class="lightbox-trigger">
   <figcaption>2023-10-19 山頂。この奥にも広がっている</figcaption>
 </figure>
 
 <figure>
-  <img src="img/03_02_lo.webp" alt="写真"><!-- img/03_02.jpg -->
+  <img src="img/03_02_lo.webp" alt="写真" data-full="img/03_02.jpg" class="lightbox-trigger">
   <figcaption>2023-04-23 山頂から望む海田湾、広島湾</figcaption>
 </figure>
 
 <figure>
-  <img src="img/03_03_lo.webp" alt="写真"><!-- img/03_03.jpg -->
+  <img src="img/03_03_lo.webp" alt="写真" data-full="img/03_03.jpg" class="lightbox-trigger">
   <figcaption>2023-04-23 絵下山と矢野の町並み</figcaption>
 </figure>
 
@@ -55,7 +55,7 @@ title: 日浦山とは
 の3つだろう。中でも、Aルートで登ってBルートで下山するのが定番である。どちらも、歩きやすく、迷いにくく、駅近くに登山口がある。
 
 <figure>
-  <img src="img/02_02_lo.webp"><!-- img/02_02.png -->
+  <img src="img/02_02_lo.webp" alt="地図" data-full="img/02_02.png" class="lightbox-trigger">
   <figcaption>メジャールート</figcaption>
 </figure>
 
@@ -66,7 +66,7 @@ title: 日浦山とは
 これら以外に、公式な名前を持たないルートがいくつかある。北側(為角地区)に2本、南側(成本地区)にも2本。支流も合わせれば、もっとあるだろう。
 
 <figure>
-  <img src="img/02_03_lo.webp"><!-- img/02_03.png -->
+  <img src="img/02_03_lo.webp" alt="地図" data-full="img/02_03.png" class="lightbox-trigger">
   <figcaption>マイナールート</figcaption>
 </figure>
 
@@ -89,12 +89,12 @@ title: 日浦山とは
 標高250m付近、Aルートから少し南へ逸れた位置にある奇岩。南斜面の岩稜帯の最上部にあたる。下は絶壁なので高度感があり、眺望も良い。
 
 <figure>
-  <img src="img/04_01_lo.webp" alt="写真"><!-- img/04_01.jpg -->
+  <img src="img/04_01_lo.webp" alt="写真" data-full="img/04_01.jpg" class="lightbox-trigger">
   <figcaption>2022-12-08 地獄岩</figcaption>
 </figure>
 
 <figure>
-  <img src="img/04_02_lo.webp" alt="写真"><!-- img/04_02.jpg -->
+  <img src="img/04_02_lo.webp" alt="写真" data-full="img/04_02.jpg" class="lightbox-trigger">
   <figcaption>2026-02-23 足元注意</figcaption>
 </figure>
 
@@ -103,7 +103,7 @@ title: 日浦山とは
 Bルート上、山頂まで455m地点にある展望ベンチ。
 
 <figure>
-  <img src="img/12_01_lo.webp" alt="写真"><!-- img/12_01.jpg -->
+  <img src="img/12_01_lo.webp" alt="写真" data-full="img/12_01.jpg" class="lightbox-trigger">
   <figcaption>2023-10-19 (山頂まで)455mの癒やしのベンチ</figcaption>
 </figure>
 
@@ -112,7 +112,7 @@ Bルート上、山頂まで455m地点にある展望ベンチ。
 影コース上の小ピーク。標高258m。東側が開けており、鉾取山や坂山を望む。
 
 <figure>
-  <img src="img/15_01_lo.webp" alt="写真"><!-- img/15_01.jpg -->
+  <img src="img/15_01_lo.webp" alt="写真" data-full="img/15_01.jpg" class="lightbox-trigger">
   <figcaption>2022-10-08 258mピークのベンチ</figcaption>
 </figure>
 
@@ -129,7 +129,7 @@ Bルート上、山頂まで455m地点にある展望ベンチ。
 南側から日浦山を見ると、そそり立つような岩稜帯が目を引く。チムニーと呼んだりするらしい。ここを登るルートもあるようだ。登りきったところに地獄岩がある。
 
 <figure>
-  <img src="img/15_02_lo.webp" alt="写真"><!-- img/15_02.jpg -->
+  <img src="img/15_02_lo.webp" alt="写真" data-full="img/15_02.jpg" class="lightbox-trigger">
   <figcaption>2026-02-23 岩稜帯</figcaption>
 </figure>
 
@@ -140,7 +140,7 @@ Bルート上、山頂まで455m地点にある展望ベンチ。
 日浦山は、たくさんのベンチが設置された優しい山だが、テーブルは一つしかない。さて、どこでしょう?
 
 <figure>
-  <img src="img/11_01_lo.webp" alt="写真"><!-- img/11_01.jpg -->
+  <img src="img/11_01_lo.webp" alt="写真" data-full="img/11_01.jpg" class="lightbox-trigger">
   <figcaption>2024-12-28 The only table</figcaption>
 </figure>
 

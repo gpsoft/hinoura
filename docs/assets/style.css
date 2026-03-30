@@ -123,16 +123,24 @@ h2, h3, h4 {
 
 /** by chatgpt **/
 .lightbox {
-	display: none;
 	position: fixed;
 	z-index: 999;
 	inset: 0; /* top/left/right/bottom の省略形 */
 
 	background-color: rgba(0,0,0,0.8);
 
-	/* display: flex; */
+	display: flex;
 	align-items: center;   /* 縦中央 */
 	justify-content: center; /* 横中央 */
+
+	opacity: 0;
+	visibility: hidden;
+}
+.lightbox.visible {
+	overflow: hidden;
+	opacity: 1;
+	visibility: visible;
+	transition: opacity 0.3s ease;
 }
 .lightbox-content {
 	max-width: 95%;

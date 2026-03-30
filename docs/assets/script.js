@@ -3,22 +3,26 @@ document.addEventListener("DOMContentLoaded", () => {
 	const lightbox = document.getElementById("lightbox");
 	const lightboxImg = document.getElementById("lightbox-img");
 	const closeBtn = document.querySelector(".lightbox-close");
+	const hide = () => {
+		lightbox.classList.remove('visible');
+		lightboxImg.src = "";
+	};
 
 	document.querySelectorAll(".lightbox-trigger").forEach(img => {
 		img.addEventListener("click", () => {
 			const fullSrc = img.getAttribute("data-full");
 			lightboxImg.src = fullSrc;
-			lightbox.style.display = "flex";
+			lightbox.classList.add('visible');
 		});
 	});
 
 	closeBtn.addEventListener("click", () => {
-		lightbox.style.display = "none";
+		hide();
 	});
 
 	lightbox.addEventListener("click", (e) => {
 		if (e.target !== lightboxImg) {
-			lightbox.style.display = "none";
+			hide();
 		}
 	});
 });
