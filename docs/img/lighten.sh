@@ -18,7 +18,7 @@ for img in *.{jpg,JPG,jpeg,JPEG,png,PNG}; do
         magick  "$img" -resize 600x -quality 75 -strip "$lowres_file"
     else
         # portrait
-        magick "$img" -resize x400 -quality 75 -strip "$lowres_file"
+        magick "$img" -resize x600 -quality 75 -strip "$lowres_file"
     fi
 
     echo " Done: $lowres_file"
